@@ -34,7 +34,29 @@ div.container>article.right-side{
 
 div.container>article.right-side>nav{
     background-color: #ffffff;
-    box-shadow: 0.5px 0.5px #cfd5dc;
+    box-shadow: 1px 1px #cfd5dc;
 }
 
 /* end of general layout */
+
+
+/* the side-bar styling */
+
+div.container>div.sidebar{
+    color: #ffffff;
+    padding-left: 30px;
+}
+div.container>div.sidebar p{
+    display: flex;
+    align-items: center;
+}
+
+div.container>div.sidebar p>span{
+    margin-left: 10px;
+}
+
+div.container>div.sidebar p>img path{
+    fill: #ffffff;
+}
+
+/* end of the side-bar styling */
