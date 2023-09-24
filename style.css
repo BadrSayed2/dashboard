@@ -52,11 +52,11 @@ div.container>div.sidebar p{
 }
 
 div.container>div.sidebar p>span{
-    margin-left: 10px;
+    margin-left: 15px;
 }
 
-div.container>div.sidebar p>img path{
-    fill: #ffffff;
+div.container>div.sidebar p>svg{
+    width: 26px;
 }
 
 /* end of the side-bar styling */
