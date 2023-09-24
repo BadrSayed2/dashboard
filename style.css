@@ -29,7 +29,7 @@ div.container>article.right-side{
     grid-column: 2;
     background-color: #e2e8f0;
     display: grid;
-    grid-template-rows: 1fr 4fr;
+    grid-template-rows: 150px 4fr;
 }
 
 div.container>article.right-side>nav{
@@ -207,3 +207,57 @@ nav>div.down-side>div.buttons button{
 
 /* end of layout of the nav side */
 
+
+
+
+/* styling the articles  */
+/* ################################################################################################################ */
+article.right-side article.articles{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    padding: 10px 30px;
+}
+
+article.right-side article.articles>.projects div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 17px;
+    margin-right: 20px;
+}
+
+article.right-side article.articles>.projects article{
+    border-left: 10px solid #f0b429 ;
+    padding: 20px 10px 20px;
+    box-shadow: 2px 2px #e2e8f0;
+    background-color: #ffffff;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+article.right-side article.articles>.announcements article{
+    background-color: #ffffff;
+    padding: 5px 20px ;
+    box-shadow: 2px 2px #e2e8f0;
+}
+
+article.right-side article.articles>.announcements article.trending div.acc{
+    display: flex;
+}
+
+article.right-side article.articles>.announcements article.trending img{
+    border-radius: 1233px;
+    width: 60px;
+    /* height: 20px; */
+}
+
+div.info h3,div.info p{
+    margin: 5px;
+}
+
+div.info p{
+    font-size: 15px;
+    color: #c5c5c5;
+}
+
+/* ################################################################################################################## */
+/* end of  styling the articles  */
