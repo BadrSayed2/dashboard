@@ -42,10 +42,23 @@ div.container>article.right-side>nav{
 
 /* the side-bar styling */
 
+
+
 div.container>div.sidebar{
     color: #ffffff;
     padding-left: 30px;
 }
+div.container>div.sidebar div.dashboard{
+    display: flex;
+    margin-bottom: 40px;
+}
+div.container>div.sidebar div.dashboard img{
+    margin-left: -14px;
+}
+div.container>div.sidebar div.dashboard h1{
+    padding: 0;
+}
+
 div.container>div.sidebar p{
     display: flex;
     align-items: center;
@@ -60,3 +73,137 @@ div.container>div.sidebar p>svg{
 }
 
 /* end of the side-bar styling */
+
+
+
+/* layout of the nav side */
+
+
+
+/* styling the upper side */
+/* ################################################################################### */
+
+article.right-side>nav svg {
+    width: 20px;
+}
+
+article.right-side>nav>div.upper-side{
+    display: flex;
+    align-items: center;
+    padding-left: 2vw;
+    padding-right: 1vw;
+}
+
+
+/* search section */
+/* ######################################################### */
+
+
+
+article.right-side>nav>div.upper-side div.search{
+    flex: 1;
+    display: flex;
+    margin-right: 5vw;
+}
+article.right-side>nav>div.upper-side div.search input{
+    flex: 1;
+    border: 0;
+    background-color: #e2e8f0;
+    border-radius: 10px;
+}
+
+article.right-side>nav>div.upper-side div.search svg{
+    margin-right: 10px;
+}
+
+
+
+/* ####################################################### */
+/* end of search section */
+
+
+
+/* account section */
+/* ######################################################### */
+
+article.right-side>nav>div.upper-side img{
+    width: 36px;
+    height: 50%;
+    margin-right: 30px;
+}
+
+article.right-side>nav>div.upper-side div.account-name{
+    color: #5f5f5f;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+article.right-side>nav>div.upper-side div.account{
+    display: flex;
+
+}
+article.right-side>nav>div.upper-side div.account svg#notification-icon{
+    margin-top: 0;
+    margin-right: 4vw;
+    margin-left: 0;
+}
+
+/* end of account section */
+/* ########################################################## */
+
+
+
+
+/* end styling the upper side */
+/* ################################################################################################## */
+
+/* styling the down-side */
+/* ################################################################################################### */
+
+nav>div.down-side{
+    display: flex;
+    padding-left: 2vw;
+    padding-right: 1vw;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+nav>div.down-side div.greeting{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    margin-left: 10px;
+    flex: 2;
+}
+
+nav>div.down-side div.greeting p , nav>div.down-side div.greeting h3{
+    margin: 0;
+}
+
+nav>div.down-side div.greeting p {
+    font-weight: 600;
+}
+nav>div.down-side>div.buttons{
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav>div.down-side>div.buttons button{
+    background-color: #1992d4;
+    color: white;
+    font-size: 15px;
+    border: 0;
+    border-radius: 30px;
+    padding: 5px 20px;
+}
+
+/* end of styling the down-side */
+/* ################################################################################################### */
+
+
+
+/* end of layout of the nav side */
+
